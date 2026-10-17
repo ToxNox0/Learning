@@ -10,15 +10,28 @@
     <header>
         <h1>Kanban Board</h1>
     </header>
-    <main class="main-content">
-        <div class="to-do">
-            <button id="addToDo">Add</button>
-        </div>
-        <div class="in-progress">
-            <button id="addProgress">Add</button>
-        </div>
-        <div class="completed">
-            <button id="addCompleted">Add</button>
+    <main>
+        <div class="main-content">
+            <div class="to-do content">
+                <div class="heading">
+                    <p>Work</p>
+                    <button id="addToDo">Add</button>
+                </div>
+                <ul>
+                    <li>
+                    <label>
+                            <input type="checkbox">
+                            <span>Sleep more</span>
+                    </label>
+                    </li>
+                </ul>
+            </div>
+            <div class="in-progress content">
+                <button id="addProgress">Add</button>
+            </div>
+            <div class="completed content">
+                <button id="addCompleted">Add</button>
+            </div>
         </div>
     </main>
 </body>
