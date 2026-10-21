@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="first.js" defer></script>
 </head>
 <body>
     <header>
@@ -15,9 +16,10 @@
             <div class="to-do content">
                 <div class="heading">
                     <p>Work</p>
-                    <button id="addToDo">Add</button>
+                    <input type="text" class="toDoInput" placeholder="Add an event">
+                    <button class="addToDo">Add</button>
                 </div>
-                <ul>
+                <ul class="toDoList">
                     <li>
                     <label>
                             <input type="checkbox">
@@ -27,10 +29,32 @@
                 </ul>
             </div>
             <div class="in-progress content">
-                <button id="addProgress">Add</button>
+                <div class="heading">
+                    <p>In Progress</p>
+                    <input type="text" class="toDoInput" placeholder="Add an event">
+                    <button class="addToDo">Add</button>
+                </div>
+                <ul class="toDoList">
+                    <li>
+                    <label>
+                            
+                    </label>
+                    </li>
+                </ul>
             </div>
             <div class="completed content">
-                <button id="addCompleted">Add</button>
+                <div class="heading">
+                    <p>Completed</p>
+                    <input type="text" class="toDoInput" placeholder="Add an event">
+                    <button class="addToDo">Add</button>
+                </div>
+                <ul class="toDoList">
+                    <li>
+                    <label>
+                            
+                    </label>
+                    </li>
+                </ul>
             </div>
         </div>
     </main>
