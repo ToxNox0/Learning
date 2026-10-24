@@ -2,8 +2,8 @@ const columns= document.querySelectorAll('.content');
 
 columns.forEach((column) => {
     const todoInput= column.querySelector('.toDoInput');
-const todoBtn= column.querySelector('.addToDo');
-const list= column.querySelector('.toDoList');
+    const todoBtn= column.querySelector('.addToDo');
+    const list= column.querySelector('.toDoList');
 
 // everything starts after the pressing the button
 todoBtn.addEventListener('click', () => {
